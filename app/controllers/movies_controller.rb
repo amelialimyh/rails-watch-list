@@ -20,4 +20,8 @@ class MoviesController < ApplicationController
     @movie.save
     redirect_to movie_path(@movie)
   end
+
+  def home
+    
+  end
 end
